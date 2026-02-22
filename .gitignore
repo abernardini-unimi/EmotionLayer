@@ -55,3 +55,4 @@ model_v2/
 *.onnx
 *.pickle
 dataset/
+audio/
