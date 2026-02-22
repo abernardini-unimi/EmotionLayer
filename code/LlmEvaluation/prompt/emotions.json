@@ -1,0 +1,92 @@
+[
+    {
+      "id": "sarcasm",
+      "label": "Sarcasmo",
+      "composition": ["Disgusto", "Rabbia"],
+      "pad_estimates": {
+        "valence": "Bassa",
+        "arousal": "Bassa",
+        "dominance": "Molto Alta"
+      }
+    },
+    {
+      "id": "frustration",
+      "label": "Frustrazione",
+      "composition": ["Rabbia", "Tristezza"],
+      "pad_estimates": {
+        "valence": "Bassa",
+        "arousal": "Alta",
+        "dominance": "Bassa"
+      }
+    },
+    {
+      "id": "anger",
+      "label": "Rabbia",
+      "composition": ["Rabbia"],
+      "pad_estimates": {
+        "valence": "Molto Bassa",
+        "arousal": "Molto Alta",
+        "dominance": "Molto Alta"
+      }
+    },
+    {
+      "id": "uncertainty",
+      "label": "Incertezza",
+      "composition": ["Paura", "Sorpresa"],
+      "pad_estimates": {
+        "valence": "Bassa",
+        "arousal": "Media",
+        "dominance": "Bassa"
+      }
+    },
+    {
+      "id": "satisfaction",
+      "label": "Soddisfazione",
+      "composition": ["Gioia"],
+      "pad_estimates": {
+        "valence": "Alta",
+        "arousal": "Bassa",
+        "dominance": "Alta"
+      }
+    },
+    {
+      "id": "enthusiasm",
+      "label": "Entusiasmo",
+      "composition": ["Gioia", "Sorpresa"],
+      "pad_estimates": {
+        "valence": "Molto Alta",
+        "arousal": "Molto Alta",
+        "dominance": "Alta"
+      }
+    },
+    {
+      "id": "urgency",
+      "label": "Urgenza",
+      "composition": ["Paura", "Rabbia"],
+      "pad_estimates": {
+        "valence": "Bassa",
+        "arousal": "Molto Alta",
+        "dominance": "Bassa"
+      }
+    },
+    {
+      "id": "insecurity",
+      "label": "Insicurezza",
+      "composition": ["Paura", "Tristezza"],
+      "pad_estimates": {
+        "valence": "Bassa",
+        "arousal": "Bassa",
+        "dominance": "Molto Bassa"
+      }
+    },
+    {
+      "id": "neutral",
+      "label": "Neutro",
+      "composition": ["Neutro"],
+      "pad_estimates": {
+        "valence": "Media",
+        "arousal": "Media",
+        "dominance": "Media"
+      }
+    }
+]

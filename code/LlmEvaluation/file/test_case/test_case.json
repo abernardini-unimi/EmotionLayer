@@ -1,0 +1,522 @@
+[
+  {
+    "id": "ecom_ang_01",
+    "target_strategy": "DE-ESCALATION ATTIVA",
+    "emotion_detected": "RABBIA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "96%" },
+        { "Emotion": "disgust", "Score": "3%" }
+      ],
+      "prosody": { "arousal": 0.95, "dominance": 0.90, "valence": 0.05 },
+      "transcription": "Il corriere ha scritto che non ero in casa ma io sono qui da stamattina! È falso!"
+    }
+  },
+  {
+    "id": "ecom_ang_02",
+    "target_strategy": "DE-ESCALATION ATTIVA",
+    "emotion_detected": "RABBIA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "90%" },
+        { "Emotion": "surprise", "Score": "8%" }
+      ],
+      "prosody": { "arousal": 0.88, "dominance": 0.82, "valence": 0.10 },
+      "transcription": "Mi avete mandato un telefono usato spacciandolo per nuovo! È graffiato ovunque!"
+    }
+  },
+  {
+    "id": "ecom_ang_03",
+    "target_strategy": "DE-ESCALATION ATTIVA",
+    "emotion_detected": "RABBIA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "88%" },
+        { "Emotion": "fear", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.85, "dominance": 0.80, "valence": 0.12 },
+      "transcription": "Cancellate subito il mio account e i miei dati, non comprerò mai più nulla da voi."
+    }
+  },
+  {
+    "id": "ecom_ent_01",
+    "target_strategy": "POSITIVE MIRRORING",
+    "emotion_detected": "ENTUSIASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "95%" },
+        { "Emotion": "surprise", "Score": "3%" }
+      ],
+      "prosody": { "arousal": 0.85, "dominance": 0.70, "valence": 0.96 },
+      "transcription": "Non ci credo! Il pacco è arrivato in un solo giorno! Grazie mille!"
+    }
+  },
+  {
+    "id": "ecom_ent_02",
+    "target_strategy": "POSITIVE MIRRORING",
+    "emotion_detected": "ENTUSIASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "surprise", "Score": "50%" },
+        { "Emotion": "joy", "Score": "45%" }
+      ],
+      "prosody": { "arousal": 0.82, "dominance": 0.62, "valence": 0.93 },
+      "transcription": "Wow, ho trovato anche un campioncino omaggio nel pacco! Che sorpresa!"
+    }
+  },
+  {
+    "id": "ecom_fru_01",
+    "target_strategy": "DE-ESCALATION ATTIVA",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "85%" },
+        { "Emotion": "disgust", "Score": "12%" }
+      ],
+      "prosody": { "arousal": 0.82, "dominance": 0.75, "valence": 0.15 },
+      "transcription": "Sono due settimane che aspetto il rimborso, state trattenendo i miei soldi indebitamente."
+    }
+  },
+  {
+    "id": "ecom_fru_02",
+    "target_strategy": "DE-ESCALATION ATTIVA",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "80%" },
+        { "Emotion": "sadness", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.78, "dominance": 0.65, "valence": 0.20 },
+      "transcription": "Ho pagato la spedizione espressa per averlo oggi ed è ancora in magazzino. Siete ridicoli."
+    }
+  },
+  {
+    "id": "ecom_fru_03",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "80%" },
+        { "Emotion": "disgust", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.30, "dominance": 0.25, "valence": 0.30 },
+      "transcription": "Il regalo che ho ordinato è arrivato rotto, ci tenevo tanto, era per il mio papà."
+    }
+  },
+  {
+    "id": "ecom_fru_04",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "88%" },
+        { "Emotion": "neutrality", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.22, "dominance": 0.18, "valence": 0.24 },
+      "transcription": "Non posso permettermi di pagare di nuovo le spese di spedizione per il cambio taglia."
+    }
+  },
+  {
+    "id": "ecom_fru_05",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "75%" },
+        { "Emotion": "fear", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.28, "dominance": 0.22, "valence": 0.35 },
+      "transcription": "Ho sbagliato a ordinare il colore e ora dicono che è esaurito quello giusto..."
+    }
+  },
+  {
+    "id": "ecom_fru_06",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "FRUSTRAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "80%" },
+        { "Emotion": "anger", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.40, "dominance": 0.45, "valence": 0.40 },
+      "transcription": "Sì, va bene. Non si preoccupi. Tanto ormai mi sono rassegnato all'idea che questo rimborso non lo vedrò mai."
+    }
+  },
+  {
+    "id": "ecom_ins_01",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "INSICUREZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "85%" },
+        { "Emotion": "neutrality", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.25, "dominance": 0.20, "valence": 0.28 },
+      "transcription": "Volevo fare il reso ma non riesco a stampare l'etichetta, non sono capace..."
+    }
+  },
+  {
+    "id": "ecom_ins_02",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "INSICUREZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "80%" },
+        { "Emotion": "anger", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.85, "dominance": 0.35, "valence": 0.22 },
+      "transcription": "Credo che qualcuno sia entrato nel mio profilo, non riesco più ad accedere."
+    }
+  },
+  {
+    "id": "ecom_ins_03",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "INSICUREZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "30%" },
+        { "Emotion": "neutrality", "Score": "60%" }
+      ],
+      "prosody": { "arousal": 0.35, "dominance": 0.30, "valence": 0.45 },
+      "transcription": "Spero di non aver fatto un pasticcio con l'ordine... forse non avrei dovuto cliccare quel tasto, ma non capivo cosa succedesse."
+    }
+  },
+  {
+    "id": "ecom_neu_01",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "NEUTRA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "92%" },
+        { "Emotion": "joy", "Score": "3%" }
+      ],
+      "prosody": { "arousal": 0.48, "dominance": 0.50, "valence": 0.51 },
+      "transcription": "Vorrei sapere a che punto è la spedizione del mio ordine numero 4520."
+    }
+  },
+  {
+    "id": "ecom_neu_02",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "NEUTRA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "88%" },
+        { "Emotion": "surprise", "Score": "8%" }
+      ],
+      "prosody": { "arousal": 0.50, "dominance": 0.52, "valence": 0.50 },
+      "transcription": "Qual è la procedura per effettuare il reso di un paio di scarpe?"
+    }
+  },
+  {
+    "id": "ecom_neu_03",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "NEUTRA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "85%" },
+        { "Emotion": "sadness", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.45, "dominance": 0.48, "valence": 0.49 },
+      "transcription": "Ho dimenticato di inserire il codice sconto, si può aggiungere ora?"
+    }
+  },
+  {
+    "id": "ecom_neu_04",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "NEUTRA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "90%" },
+        { "Emotion": "joy", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.52, "dominance": 0.55, "valence": 0.55 },
+      "transcription": "Volevo confermare che l'indirizzo di consegna è quello dell'ufficio."
+    }
+  },
+  {
+    "id": "ecom_neu_05",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "NEUTRA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "89%" },
+        { "Emotion": "surprise", "Score": "6%" }
+      ],
+      "prosody": { "arousal": 0.50, "dominance": 0.50, "valence": 0.50 },
+      "transcription": "Quanto tempo ho per esercitare il diritto di recesso?"
+    }
+  },
+  {
+    "id": "ecom_sar_01",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "55%" },
+        { "Emotion": "joy", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.65, "dominance": 0.70, "valence": 0.25 },
+      "transcription": "Ottimo imballaggio davvero, la scatola è arrivata aperta e schiacciata. Geniali."
+    }
+  },
+  {
+    "id": "ecom_sar_02",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "disgust", "Score": "60%" },
+        { "Emotion": "surprise", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.60, "dominance": 0.65, "valence": 0.30 },
+      "transcription": "Grazie per aver spedito la taglia S invece della XL, mi andrà benissimo come braccialetto."
+    }
+  },
+  {
+    "id": "ecom_sar_03",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "40%" },
+        { "Emotion": "neutrality", "Score": "40%" }
+      ],
+      "prosody": { "arousal": 0.58, "dominance": 0.60, "valence": 0.35 },
+      "transcription": "No ma fate pure con comodo eh, il regalo serviva solo per ieri."
+    }
+  },
+  {
+    "id": "ecom_sar_04",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "disgust", "Score": "50%" },
+        { "Emotion": "joy", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.62, "dominance": 0.68, "valence": 0.28 },
+      "transcription": "Che affare imperdibile, lo stesso prodotto costa la metà su Amazon."
+    }
+  },
+  {
+    "id": "ecom_sar_05",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "anger", "Score": "50%" },
+        { "Emotion": "surprise", "Score": "20%" }
+      ],
+      "prosody": { "arousal": 0.60, "dominance": 0.60, "valence": 0.32 },
+      "transcription": "Siete stati utilissimi, il bot mi ha suggerito di riavviare il frigorifero."
+    }
+  },
+  {
+    "id": "ecom_sar_06",
+    "target_strategy": "ASSERTIVE NEUTRALITY",
+    "emotion_detected": "SARCASMO",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "65%" },
+        { "Emotion": "neutrality", "Score": "25%" }
+      ],
+      "prosody": { "arousal": 0.60, "dominance": 0.55, "valence": 0.80 },
+      "transcription": "Che bello, è la terza volta che mi dite che il pacco arriva 'domani'. Avete un concetto di tempo davvero affascinante."
+    }
+  },
+  {
+    "id": "ecom_sat_01",
+    "target_strategy": "POSITIVE MIRRORING",
+    "emotion_detected": "SODDISFAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "88%" },
+        { "Emotion": "surprise", "Score": "8%" }
+      ],
+      "prosody": { "arousal": 0.78, "dominance": 0.65, "valence": 0.90 },
+      "transcription": "La qualità è pazzesca, molto meglio che in foto. Sono contentissima."
+    }
+  },
+  {
+    "id": "ecom_sat_02",
+    "target_strategy": "POSITIVE MIRRORING",
+    "emotion_detected": "SODDISFAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "80%" },
+        { "Emotion": "neutrality", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.72, "dominance": 0.60, "valence": 0.85 },
+      "transcription": "Grazie per avermi aiutato col rimborso, siete stati super onesti."
+    }
+  },
+  {
+    "id": "ecom_sat_03",
+    "target_strategy": "POSITIVE MIRRORING",
+    "emotion_detected": "SODDISFAZIONE",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "85%" },
+        { "Emotion": "neutrality", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.75, "dominance": 0.68, "valence": 0.88 },
+      "transcription": "Finalmente un sito dove le taglie corrispondono davvero alla realtà."
+    }
+  },
+  {
+    "id": "ecom_unc_01",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "45%" },
+        { "Emotion": "sadness", "Score": "25%" }
+      ],
+      "prosody": { "arousal": 0.40, "dominance": 0.40, "valence": 0.48 },
+      "transcription": "Non so, il colore è diverso dalla foto... forse lo tengo ma..."
+    }
+  },
+  {
+    "id": "ecom_unc_02",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "surprise", "Score": "40%" },
+        { "Emotion": "neutrality", "Score": "30%" }
+      ],
+      "prosody": { "arousal": 0.55, "dominance": 0.50, "valence": 0.52 },
+      "transcription": "Scusa c'è vento... dicevo il pacco... lasciato al vicino? O no?"
+    }
+  },
+  {
+    "id": "ecom_unc_03",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "55%" },
+        { "Emotion": "anger", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.52, "dominance": 0.55, "valence": 0.45 },
+      "transcription": "Mmm, ok lasciamo perdere per ora."
+    }
+  },
+  {
+    "id": "ecom_unc_04",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "joy", "Score": "25%" },
+        { "Emotion": "sadness", "Score": "25%" }
+      ],
+      "prosody": { "arousal": 0.50, "dominance": 0.50, "valence": 0.50 },
+      "transcription": "Bello è bello, però costa tanto... non saprei se confermare."
+    }
+  },
+  {
+    "id": "ecom_unc_05",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "neutrality", "Score": "65%" },
+        { "Emotion": "surprise", "Score": "15%" }
+      ],
+      "prosody": { "arousal": 0.48, "dominance": 0.52, "valence": 0.54 },
+      "transcription": "Ah... ehm... qual era l'altra opzione di spedizione?"
+    }
+  },
+  {
+    "id": "ecom_unc_06",
+    "target_strategy": "DIRECT EFFICIENCY",
+    "emotion_detected": "INCERTEZZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "surprise", "Score": "35%" },
+        { "Emotion": "joy", "Score": "35%" }
+      ],
+      "prosody": { "arousal": 0.55, "dominance": 0.50, "valence": 0.60 },
+      "transcription": "Ah, quindi la promozione valeva solo se compravo tre pezzi? Ma io ne ho presi due... però nel carrello mi dava lo sconto... o forse no?"
+    }
+  },
+  {
+    "id": "ecom_urg_01",
+    "target_strategy": "EMPATHIC VALIDATION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "90%" },
+        { "Emotion": "fear", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.20, "dominance": 0.15, "valence": 0.20 },
+      "transcription": "Il vestito per il matrimonio di mia figlia non è arrivato... è domani..."
+    }
+  },
+  {
+    "id": "ecom_urg_02",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "92%" },
+        { "Emotion": "surprise", "Score": "5%" }
+      ],
+      "prosody": { "arousal": 0.94, "dominance": 0.25, "valence": 0.15 },
+      "transcription": "Ho sbagliato l'indirizzo! Ho messo quello vecchio e il pacco parte tra un'ora! Aiuto!"
+    }
+  },
+  {
+    "id": "ecom_urg_03",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "88%" },
+        { "Emotion": "sadness", "Score": "8%" }
+      ],
+      "prosody": { "arousal": 0.88, "dominance": 0.30, "valence": 0.18 },
+      "transcription": "Mi è arrivata una notifica di un acquisto di 500 euro che non ho fatto! Bloccatelo!"
+    }
+  },
+  {
+    "id": "ecom_urg_04",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "85%" },
+        { "Emotion": "surprise", "Score": "10%" }
+      ],
+      "prosody": { "arousal": 0.90, "dominance": 0.28, "valence": 0.20 },
+      "transcription": "La batteria del giocattolo che ho comprato sta fumando! È pericoloso!"
+    }
+  },
+  {
+    "id": "ecom_urg_05",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "fear", "Score": "78%" },
+        { "Emotion": "sadness", "Score": "18%" }
+      ],
+      "prosody": { "arousal": 0.82, "dominance": 0.32, "valence": 0.25 },
+      "transcription": "Ho ordinato un medicinale da banco ed è in ritardo, mi serve urgentemente."
+    }
+  },
+  {
+    "id": "ecom_urg_06",
+    "target_strategy": "RAPID RESOLUTION",
+    "emotion_detected": "URGENZA",
+    "input": {
+      "vocal_sentiment": [
+        { "Emotion": "sadness", "Score": "40%" },
+        { "Emotion": "neutrality", "Score": "45%" }
+      ],
+      "prosody": { "arousal": 0.30, "dominance": 0.20, "valence": 0.35 },
+      "transcription": "Sto partendo per l'aeroporto e il pacco con i documenti non è qui. Se non arriva entro mezz'ora, sarò costretto a cancellare il viaggio."
+    }
+  }
+]
