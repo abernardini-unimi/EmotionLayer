@@ -70,7 +70,7 @@ def get_emotion_info(audio_path):
 
 
 def main():
-    audio_path = "<your_file_audio_path>"
+    audio_path = "<your_file_path>"
 
     if Path(audio_path).exists():
         try:
@@ -80,7 +80,7 @@ def main():
             
             json_output = json.dumps(results, indent=4)
             print(json_output)
-            print(f'\nExecution Time : {end_time - start_time} s')
+            print(f'/nExecution Time : {end_time - start_time} s')
             
         except Exception as e:
             print(json.dumps({"status": "error", "message": str(e)}))

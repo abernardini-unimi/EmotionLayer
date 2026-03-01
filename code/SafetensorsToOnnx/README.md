@@ -12,7 +12,7 @@ Make sure you have:
 Install the required dependencies with:
 
 ```bash
-pip install "optimum[onnxruntime]"
+pip install "optimum[onnxruntime]" accelerate
 ```
 
 ## Expected Folder Structure
@@ -34,10 +34,7 @@ The `model/` directory should contain:
 Run the following command from the root of this folder:
 
 ```bash
-optimum-cli export onnx \
-  --model ./model \
-  --task audio-classification \
-  onnx_output/
+optimum-cli export onnx --model ./model --task audio-classification onnx_output/
 ```
 
 ### Main Parameters

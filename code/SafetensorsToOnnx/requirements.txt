@@ -1,0 +1,9 @@
+onnxruntime 
+librosa 
+soundfile
+onnxscript
+torch 
+transformers 
+safetensors 
+onnx
+"optimum[onnxruntime]"

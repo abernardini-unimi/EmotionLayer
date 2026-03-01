@@ -32,6 +32,8 @@ def get_prosody_info(audio_path):
         outputs = model(**inputs)
         predictions = outputs.logits.cpu().numpy()[0]
 
+    print(predictions)
+
     arousal = float(f"{predictions[0]:.4f}")
     valence = float(f"{predictions[1]:.4f}")
     dominance = float(f"{predictions[2]:.4f}")
@@ -43,7 +45,7 @@ def get_prosody_info(audio_path):
     }
 
 if __name__ == "__main__":
-    file_audio = "<your_file_audio_path>"
+    file_audio = "registrazione_29.wav"
     if len(sys.argv) > 1:
         file_audio = sys.argv[1]
 
