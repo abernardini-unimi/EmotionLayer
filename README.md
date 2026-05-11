@@ -1,4 +1,4 @@
-# AC_NI-project 25/26
+# Affective Computing project 25/26
 
 This repository contains the project developed for the **Affective Computing** and **Natural Interaction** courses.
 
